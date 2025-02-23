@@ -93,8 +93,8 @@ const config = {
     confirmButtonText: "Reset",
   },
 
-  TOTAL_SLOTS: import.meta.env.PUBLIC_TOTAL_SLOTS
-  ? parseInt(import.meta.env.PUBLIC_TOTAL_SLOTS, 10)
+  TOTAL_SLOTS: import.meta.env.REACT_APP_TOTAL_SLOTS
+  ? parseInt(import.meta.env.REACT_APP_TOTAL_SLOTS, 10)
   : 10,
   
   title: "Welcome Back",
