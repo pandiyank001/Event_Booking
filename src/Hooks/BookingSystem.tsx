@@ -18,7 +18,6 @@ export function useBookingSystem(storageKey: string, initialCapacity: number) {
 
   useEffect(() => {
     localStorage.setItem(storageKey, JSON.stringify(state));
-    // Dispatch storage event for cross-component communication
     window.dispatchEvent(new Event('storage'));
   }, [state, storageKey]);
 
@@ -78,7 +77,6 @@ export function useBookingSystem(storageKey: string, initialCapacity: number) {
   };
 
   const reset = () => {
-    // Reset to initial state for this specific event
     const initialState: BookingState = {
       availableSlots: initialCapacity,
       bookings: [],

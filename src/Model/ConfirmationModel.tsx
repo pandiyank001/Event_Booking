@@ -12,7 +12,7 @@ const CancelModal: React.FC<CancelModalProps> = ({
   title,
   description,
   confirmButtonText,
-  confirmButtonColor = 'bg-red-600', // Default color for cancel action
+  confirmButtonColor = 'bg-red-600', 
 }) => {
   return (
     <AnimatePresence>

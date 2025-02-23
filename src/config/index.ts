@@ -1,6 +1,3 @@
-// src/config/config.ts
-
-import { env } from "process";
 
 const config = {
   ABOUT_TEXT:

@@ -1,4 +1,3 @@
-// src/data/events.ts
 import reactimage from '../assets/reactimage.jpg';
 import nodeimage from '../assets/nodejsimage.jpg';
 import uximage from '../assets/uiuximage.png';
