@@ -47,7 +47,7 @@ yarn
 
 3. Create a `.env` file in the root directory:
 ```env
-PUBLIC_TOTAL_SLOTS=10
+REACT_APP_TOTAL_SLOTS=10
 ```
 
 4. Start the development server:
